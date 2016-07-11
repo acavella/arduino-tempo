@@ -3,12 +3,10 @@ Program Name:    Arduino Tempo
 Major Revision:  a1
 Revision Date:   July 2016
 Author:          Tony Cavella
-Description:     Sparkfun Wifi shield on an Arduino Uno: Weather station that sends data to wunderground.com
+Description:     Arduino Uno WiFi, solar powered weather station that reports data to wunderground.com in real time.
 
-
-
-Sparkfun WiFi library by Shawn Hymel, https://github.com/sparkfun/SFE_CC3000_Library
-Sensors from Adafruit, see their product pages for those libraries.
+Hardware:        Arduino.org Uno WiFi, AM2302 (DHT22) Temperature/Humidity Sensor, BME280 Barametric Pressure Sensor
+Libraries:       
 
 Notes:
 This project has options to conserve battery power. To save power use lpDelay to rest for awhile, wake, send data and rest again.
